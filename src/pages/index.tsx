@@ -26,7 +26,6 @@ const index = () => {
 				scrollPaddingTop="50px"
 			>
 				<Flex justifyContent="space-evenly" w="100%" mb={120}>
-					<div>Insert Pic Here</div>
 					<Flex direction="column">
 						<Heading
 							fontSize={{ base: `5xl`, lg: `7xl` }}
