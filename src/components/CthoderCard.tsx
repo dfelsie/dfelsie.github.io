@@ -17,7 +17,7 @@ const CthoderCard: React.FC<CthoderCardProps> = ({
 		<Box
 			backgroundColor={variant === "norm" ? "white" : "#9ae6b4"}
 			h="325px"
-			color={variant === "norm" ? "black" : "#fff5f5"}
+			color={variant === "norm" ? "black" : "#f8eded"}
 			fontFamily="ubuntu"
 			{...style}
 		>

@@ -55,7 +55,9 @@ const index = () => {
 					>
 						Education
 					</CthoderCard>
-					<CthoderCard style={{ textAlign: "center" }}>
+					<CthoderCard
+						style={{ textAlign: "center", marginTop: "50px" }}
+					>
 						Graduating from Macalester College in St. Paul <br />
 						with degrees in Computer Science and Applied Math and
 						Statistics.
@@ -76,7 +78,12 @@ const index = () => {
 						variant={useBreakpointValue({ sm: "norm", md: "alt" })}
 						style={{ textAlign: "center" }}
 					>
-						<UnorderedList style={{ listStylePosition: "inside" }}>
+						<UnorderedList
+							style={{
+								listStylePosition: "inside",
+								marginTop: "50px",
+							}}
+						>
 							<ListItem marginBottom="2">
 								July - August 2021: Foursquare, Backend Intern
 								<UnorderedList>
@@ -122,12 +129,18 @@ const index = () => {
 						variant={useBreakpointValue({ sm: "norm", base: "alt" })}
 						style={{ textAlign: "center" }}
 					>
-						<UnorderedList style={{ listStylePosition: "inside" }}>
+						<UnorderedList
+							style={{
+								listStylePosition: "inside",
+								marginTop: "50px",
+							}}
+						>
 							<ListItem>Python/Flask</ListItem>
 							<ListItem>JS/React/CSS/HTML</ListItem>
 							<ListItem>Java</ListItem>
 							<ListItem>Docker</ListItem>
 							<ListItem>PostgreSQL</ListItem>
+							<ListItem>Agile</ListItem>
 						</UnorderedList>
 					</CthoderCard>
 				</SimpleGrid>
