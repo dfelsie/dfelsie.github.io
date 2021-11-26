@@ -31,9 +31,9 @@ const index = () => {
 							fontSize={{ base: `5xl`, lg: `7xl` }}
 							textAlign={{ base: `center`, lg: `left` }}
 						>
-							Hi, I&apos;m Dan!
+							Hello, I&apos;m Dan!
 						</Heading>
-						<Text>I do lots of cool stuff!</Text>
+						<Text>Full Stack Developer</Text>
 					</Flex>
 				</Flex>
 				<SimpleGrid
