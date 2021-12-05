@@ -56,11 +56,13 @@ const index = () => {
 						Education
 					</CthoderCard>
 					<CthoderCard
-						style={{ textAlign: "center", marginTop: "50px" }}
+						style={{ textAlign: "center"}}
 					>
+						<p style={{marginTop:"50px"}}>
 						Graduating from Macalester College in St. Paul <br />
 						with degrees in Computer Science and Applied Math and
 						Statistics.
+						</p>
 					</CthoderCard>
 
 					<CthoderCard
